@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Text Editor</title>
+    <script src="editor.js"></script>
+    <style>
+        button{
+            background: none ;
+            border-radius: 5px;
+            border: solid 1px lightgray;
+            padding: 8px;
+            color: lightgray;
+            outline: none;
+        }
+        button:hover{
+            background: lightgray;
+            color: white;
+        }
+        button:focus{
+            background: lightgray;
+            color: white;
+            border: none;
+        }
+
+        button i:focus{
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <div id="main">
+
+    </div>
+    <script>
+        editor.init();
+    </script>
+</body>
+</html>
